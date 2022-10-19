@@ -14,13 +14,13 @@ const OurTeachers = () => {
             <div class="container mx-auto flex px-5 md:flex-row flex-col items-center justify-between hero-wrapper">
 
                 <div class="md:w-1/2 lg:px-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center my-10">
-                    <div className='flex flex-col gap-7'>
-                        <span className='ml-5'>Ashrei Mitra</span>
-                        <span className='ml-5'>Rahul</span>
-                        <span className='active-teacher'>Ashrei Mitra</span>
-                        <span className='ml-5'>Ashray</span>
-                        <span className='ml-5'>Ashish</span>
-                        <span className='ml-5'>Zora</span>
+                    <div className='flex flex-col'>
+                        <span className='ml-5 py-5'>Ashrei Mitra</span>
+                        <span className='ml-5 py-5'>Rahul</span>
+                        <span className='active-teacher py-5'>Ashrei Mitra</span>
+                        <span className='ml-5 py-5'>Ashray</span>
+                        <span className='ml-5 py-5'>Ashish</span>
+                        <span className='ml-5 py-5'>Zora</span>
                     </div>
                 </div>
                 <div>
@@ -33,8 +33,8 @@ const OurTeachers = () => {
                         <img className='absolute rounded-br-[16px]' src={teacherImg} alt="" />
                     </div>
 
-                    <div className='flex justify-end mt-[23px] gap-5 lg:pr-[.6px] pr-8'>
-                        <button><img className='w-4' src={videoPreviousBtn} alt="" /></button>
+                    <div className='flex justify-end mt-[23px] lg:pr-[.6px] pr-8'>
+                        <button><img className='w-4 mr-6' src={videoPreviousBtn} alt="" /></button>
                         <button><img className='w-4' src={videoNextBtn} alt="" /></button>
                     </div>
                 </div>

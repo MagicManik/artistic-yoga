@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Artistic Yoga
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Website Link > [https://artisticyoga.netlify.app/](https://artisticyoga.netlify.app/).
+
 
 ## Available Scripts
 

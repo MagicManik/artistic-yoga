@@ -21,8 +21,8 @@ const Schedule = () => {
                 <div class="lg:flex-grow lg:max-w-[35rem] lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                     <div className='flex justify-between pb-5'>
                         <span className='text-black text-2xl font-thin'>Day 1- Class</span>
-                        <div className='flex gap-5 pr-[.6px]'>
-                            <button><img className='w-4' src={videoPreviousBtn} alt="" /></button>
+                        <div className='flex pr-[.6px]'>
+                            <button><img className='w-4 mr-6' src={videoPreviousBtn} alt="" /></button>
                             <button><img className='w-4' src={videoNextBtn} alt="" /></button>
                         </div>
                     </div>

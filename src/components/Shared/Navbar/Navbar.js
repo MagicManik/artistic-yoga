@@ -35,9 +35,11 @@ const Navbar = () => {
                                 </svg>
                             </div>
                             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                                <div class="flex flex-shrink-0 items-center">
-                                    <img className='w-full' src={brandLogo} alt="Your Company" />
-                                </div>
+                                <a href="/">
+                                    <div class="flex cursor-pointer flex-shrink-0 items-center">
+                                        <img className='w-full' src={brandLogo} alt="Your Company" />
+                                    </div>
+                                </a>
                             </div>
                             <div class="hidden sm:ml-6 sm:block">
                                 <div class="flex space-x-4">
@@ -99,7 +101,7 @@ const Navbar = () => {
                                                 <Menu.Item>
                                                     {({ active }) => (
                                                         <a
-                                                            href="/"
+                                                            href="/profile"
                                                             className={classNames(
                                                                 active ? 'bg-[#FFF3E9] text-gray-900' : 'text-gray-700',
                                                                 'block px-4 py-2 text-sm'

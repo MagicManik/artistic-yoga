@@ -4,6 +4,7 @@ import StructureOfProgram from './StructureOfProgram/StructureOfProgram';
 import './Home.css';
 import Schedule from './Schedule/Schedule';
 import OurTeachers from './OurTeachers/OurTeachers';
+import CustomerReviews from './CustomerReviews/CustomerReviews';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <StructureOfProgram />
             <Schedule />
             <OurTeachers />
+            <CustomerReviews />
         </main>
     );
 };

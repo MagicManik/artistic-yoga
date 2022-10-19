@@ -22,8 +22,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='horizontal-line'></div>
-
-                <div className='w-[520px] py-8'>
+                <div className='lg:w-[520px] w-full py-8'>
                     <p className='font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae facilisis lorem. Integer non pharetra mauris, non tincidunt metus. Aenean in lectus diam...</p>
                 </div>
             </div>
