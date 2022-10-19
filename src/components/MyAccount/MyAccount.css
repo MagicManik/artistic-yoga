@@ -1,0 +1,89 @@
+.my-account-page {
+    background-color: #FDF8F4;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.my-account-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 45px;
+}
+
+.my-account-title .account {
+    color: #FE5268;
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+}
+
+.my-account-form {
+    width: 859px;
+    height: 908px;
+    margin: 0 auto;
+}
+
+.my-account-form label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 156.5%;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.my-account-form h5 {
+    font-family: 'Roboto';
+    line-height: 156.5%;
+    text-decoration-line: underline;
+    color: #F24397;
+    cursor: pointer;
+}
+
+.detail-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+.subscription {
+    margin-top: 45px;
+    margin-bottom: 33px;
+}
+
+.my-account-form h6 {
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25.63px;
+    line-height: 31px;
+    text-decoration-line: underline;
+    color: #4D4D4D;
+}
+
+.referral {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+    .my-account-form {
+        width: 95%;
+        height: 908px;
+        margin: 60px auto;
+    }
+}

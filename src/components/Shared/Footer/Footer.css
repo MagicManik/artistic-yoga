@@ -1,0 +1,21 @@
+.horizontal-line {
+    border-bottom: 1px solid black;
+    padding: 16px 0;
+}
+
+.footer-link-btn::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer-link-a {
+    border-bottom: 1px solid white;
+}

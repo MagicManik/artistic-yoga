@@ -1,0 +1,9 @@
+.join-today-btn {
+    color: #F24397;
+}
+
+.week-btn {
+    border: 1px solid rgba(77, 77, 77, 0.6);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.26);
+    border-radius: 8px;
+}
